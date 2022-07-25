@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "a-knee-cannot-have-lung-disease"
+version = "1.0.0"
+description = "Official implementation of \"A knee cannot have lung disease: out-of-distribution detection with in-distribution voting using the medical example of chest X-Ray classification\""
+authors = ["Alessandro Wollek <alessandro.wollek@tum.de>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [{include = "a_knee_cannot_have_lung_disease"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
